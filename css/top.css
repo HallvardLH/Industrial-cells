@@ -1,0 +1,19 @@
+.top-bar {
+    padding: 1rem;
+    background-color: var(--accent-color);
+}
+
+.top-bar-left,
+.top-bar-right {
+    display: inline-grid;
+    grid-auto-flow: column;
+    grid-template-columns: 0.1fr;
+}
+
+.top-bar-right {
+    float: right;
+}
+
+.top-text {
+    margin: 0 1em 0 1em;
+}

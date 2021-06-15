@@ -1,0 +1,41 @@
+.tile {
+    display: grid;
+    grid-template-columns: 1fr;
+    grid-template-rows: repeat(3, 1fr);
+    grid-column-gap: 0px;
+    grid-row-gap: 0px;
+    min-width: 20vw;
+    min-height: 20vw;
+    background-color: gray;
+    padding: 0.5rem;
+}
+
+.tile-grid {
+    margin-top: 2%;
+    margin-left: 22%;
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    grid-template-rows: 1fr;
+    grid-column-gap: 2rem;
+    grid-row-gap: 0px;
+}
+
+.slider-grid {
+    display: grid;
+    grid-template-columns: 0.3fr 1fr 0.3fr;
+    grid-template-rows: 1fr;
+    grid-column-gap: 0px;
+    grid-row-gap: 0px;
+}
+
+.slider {
+    width: 100%;
+}
+
+.slider-label-left,
+.slider-label-right {
+    display: flex;
+    justify-content: center;
+}
+
+button {}

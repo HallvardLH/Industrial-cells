@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <link href="css/style.css" rel="stylesheet" type="text/css">
+    <link href="css/top.css" rel="stylesheet" type="text/css">
+    <link href="css/side.css" rel="stylesheet" type="text/css">
+    <link href="css/tile.css" rel="stylesheet" type="text/css">
+</head>
+
+<body>
+    <div class="top-bar">
+        <div class="top-bar-left">
+            <div class="top-text">
+                RESOURCES
+            </div>
+            <div class="top-text">
+                UPGRADES
+            </div>
+        </div>
+
+        <div class="top-bar-right">
+            <div class="top-text">
+                STATISTICS
+            </div>
+            <div class="top-text">
+                SETTINGS
+            </div>
+        </div>
+    </div>
+
+    <div class="side-bar">
+        <input type="text" class="side-search" />
+        <div id="side-anchor"></div>
+    </div>
+
+    <div class="tile-grid">
+        <div class="tile">
+            <button>BUY</button>
+            <div class="slider-grid">
+                <div class="slider-label-left">
+                    On <br /> 13
+                </div>
+                <input type="range" min="1" max="100" value="50" class="slider">
+                <div class="slider-label-right">
+                    Off <br /> 10
+                </div>
+            </div>
+
+            <div class="slider-grid">
+                <div class="slider-label-left">
+                    Sell <br /> 30%
+                </div>
+                <input type="range" min="1" max="100" value="50" class="slider">
+                <div class="slider-label-right">
+                    Store <br /> 70
+                </div>
+            </div>
+
+            <div class="tile-bottom">
+                <div class="tile-title">
+                    Coal mine
+                </div>
+                <div class="tile-amount">
+                    23 mines
+                </div>
+                <div class="tile-consumption">
+                    Consuming 13MW
+                </div>
+            </div>
+        </div>
+    </div>
+</body>
+
+<script src="js/main.js"></script>
+<script src="js/helper_functions.js"></script>
+<script src="js/resources.js"></script>
+<script src="js/create.js"></script>
+<script src="js/side.js"></script>
+
+</html>
